@@ -1,0 +1,9 @@
+.gitignore.bak
+
+#Ignore all files and folders inside mooc-programming-21 except what is contained in src folder.
+#mooc-programming-21/course_config.toml
+mooc-programming-21/*
+!mooc-programming-21/part*/
+mooc-programming-21/part*/*
+!mooc-programming-21/part*/src/
+mooc-programming-21/part*/src/__pycache__/
