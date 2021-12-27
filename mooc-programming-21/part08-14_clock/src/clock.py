@@ -21,6 +21,7 @@ class Clock:
     def set(self, hours: int, minutes: int):
         self.hours = hours
         self.minutes = minutes
+        self.seconds = 0
 
     def __str__(self):
         return f'{self.hours:02d}:{self.minutes:02d}:{self.seconds:02d}'
