@@ -1,3 +1,7 @@
+# This final exercise in this part is a relatively demanding problem solving task. It can be solved in many different ways. Even though this current section in the material covers tuples, tuples are not necessarily the best way to go about solving this.
+
+# Please write a program which prints out a square of letters as specified in the examples below. You may assume there will be at most 26 layers.
+
 # Write your solution here
 import string
 

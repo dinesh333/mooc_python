@@ -1,3 +1,17 @@
+# In this series of exercises you will create a simple student database. Before diving in, please spend a moment reading through the instructions and thinking about what sort of data structures are necessary for organising the data stored by your program.
+
+# Part 1: adding students
+# First write a function named add_student, which adds a new student to the database. Also write a preliminary version of the function print_student, which prints out the information of a single student.
+
+# Part 2: adding completed courses
+# Please write a function named add_course, which adds a completed course to the information of a specific student in the database. The course data is a tuple consisting of the name of the course and the grade:
+
+# Part 3: repeating courses
+# Courses with grade 0 should be ignored when adding course information. Additionally, if the course is already in the database in that specific student's information, the grade recorded in the database should never be lowered if the course is repeated.
+
+# Part 4: summary of database
+# Please write a function named summary, which prints out a summary based on all the information stored in the database.
+
 # Write your solution here
 def add_student(students, name):
     students[name] = []

@@ -1,3 +1,4 @@
+# Please write a function named dict_of_numbers(), which returns a new dictionary. The dictionary should have the numbers from 0 to 99 as its keys. The value attached to each key should be the number spelled out in words. 
 # Write your solution here
 
 def add_to_dict(dict, base, start, end):

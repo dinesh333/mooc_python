@@ -1,4 +1,5 @@
-# Write your solution here
+# Please write an improved version of the phone book application. Each entry should now accommodate multiple phone numbers. The application should work otherwise exactly as above, but this time all numbers attached to a name should be printed.
+
 # Write your solution here
 phonebook = {}
 while True:
