@@ -1,5 +1,33 @@
-# Please define a new class named Clock which expands on the capabilities of your 
-# Stopwatch class. It should work as follows:
+# Please define a new class named Clock which expands on the capabilities of your Stopwatch class. It should work as follows:
+
+# clock = Clock(23, 59, 55)
+# print(clock)
+# clock.tick()
+# print(clock)
+# clock.tick()
+# print(clock)
+# clock.tick()
+# print(clock)
+# clock.tick()
+# print(clock)
+# clock.tick()
+# print(clock)
+# clock.tick()
+# print(clock)
+
+# clock.set(12, 5)
+# print(clock)
+# Sample output
+
+# 23:59:55
+# 23:59:56
+# 23:59:57
+# 23:59:58
+# 23:59:59
+# 00:00:00
+# 00:00:01
+# 12:05:00
+# As you can see above, the constructor should take initial values for the hours, minutes and seconds as arguments, and set these appropriately. The tick method adds one second to the clock. The set method sets new values for the hours and the minutes, and sets the seconds to zero.
 
 class Clock:
     def __init__(self, hours: int, minutes: int, seconds: int):

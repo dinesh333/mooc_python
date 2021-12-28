@@ -1,3 +1,20 @@
+# The exercise template contains a pre-defined ShoppingList class, which can be used to model a shopping list. Your task is to add a method to the class definition. You do not need to change any methods already defined.
+
+# Assuming we have a ShoppingList object referenced in a variable named shopping_list, the object can be handled with the following methods:
+
+
+# print(shopping_list.number_of_items())
+# print(shopping_list.item(1))
+# print(shopping_list.amount(1))
+# print(shopping_list.item(2))
+# print(shopping_list.amount(2))
+# Sample output
+# 2
+# Bananas
+# 4
+# Milk
+# 1
+
 # DO NOT CHANGE THE CODE OF THE CLASS
 # ShoppingList. Write yous solution under it!
 class ShoppingList:
