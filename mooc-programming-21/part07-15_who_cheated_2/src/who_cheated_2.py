@@ -1,3 +1,13 @@
+# You have the CSV files from the previous exercise at your disposal again. Please write a function named final_points(), which returns the final exam points received by the students, in a dictionary format, following these criteria:
+
+# If there are multiple submissions for the same task, the submission with the highest number of points is taken into account.
+# If the submission was made over 3 hours after the start time, the submission is ignored.
+# The tasks are numbered 1 to 8, and each submission is graded with 0 to 6 points.
+
+# In the dicionary returned the key should be the name of the student, and the value the total points received by the student.
+
+# Hint: nested dictionaries might be a good approach when processing the tasks and submission times of each student.
+
 # Write your solution here
 import csv
 import json

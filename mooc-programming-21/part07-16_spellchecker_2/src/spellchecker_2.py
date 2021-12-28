@@ -1,3 +1,24 @@
+# In this exercise you will write an improved version of the Spell checker from the previous part.
+
+# Just like in the previous version, the program should ask the user to type in a line of text. Your program should then perform a spell check, and print out feedback to the user, so that all misspelled words have stars around them. Additionally, the program should print out a list of suggestions for the misspelled words.
+
+# Please have a look at the following two examples.
+
+# Sample output
+# write text: We use ptython to make a spell checker
+
+# We use *ptython* to make a spell checker
+# suggestions:
+# ptython: python, pythons, typhon
+# Sample output
+# write text: this is acually a good and usefull program
+
+# this is *acually* a good and *usefull* program
+# suggestions:
+# acually: actually, tactually, factually
+# usefull: usefully, useful, museful
+# The suggestions should be determined with the function get_close_matches from the Python standard library module difflib.
+
 # Write your solution here
 from difflib import get_close_matches
 

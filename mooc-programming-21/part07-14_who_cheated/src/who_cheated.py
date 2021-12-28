@@ -1,3 +1,19 @@
+# The file start_times.csv contains individual start times for a programming exam, in the format name;hh:mm. An example:
+
+# jarmo;09:00
+# timo;18:42
+# kalle;13:23
+# Additionally, the file submissions.csv contains points and handin times for individual exercises. The format here is name;task;points;hh:mm. An example:
+
+# jarmo;1;8;16:05
+# timo;2;10;21:22
+# jarmo;2;10;19:15
+# jne...
+# Your task is to find the students who spent over 3 hours on the exam tasks. That is, any student whose any task was handed in over 3 hours later than their exam start time is labelled a cheater. There may be more than one submission for the same task for each student. You may assume all times are within the same day.
+
+# Please write a function named cheaters(), which returns a list containing the names of the students who cheated
+
+
 # Write your solution here
 import csv
 from datetime import datetime, timedelta
