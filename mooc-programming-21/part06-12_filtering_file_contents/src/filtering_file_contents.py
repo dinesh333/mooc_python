@@ -1,3 +1,25 @@
+# The file solutions.csv contains some solutions to mathematics problems:
+
+# As you can see above, on each line the format is name_of_student;problem;result. All the operations are either addition or subtraction, and each has exactly two operands.
+
+# Please write a function named filter_solutions() which
+
+# Reads the contents of the file solutions.csv
+# writes those lines which have a correct result into the file correct.csv
+# writes those lines which have an incorrect result into the file incorrect.csv
+# Using the example above, the file correct.csv would contain the lines
+
+# The other two would be in the file incorrect.csv.
+
+# Please write the lines in the same order as they appear in the original file. Do not change the original file.
+
+# NB: the function should have the exact same result, no matter how many times it is called. That is, it shouldn't matter if the function is called once
+
+# or multiple times in a row
+
+# After the execution, the contents of the files correct.csv and incorrect.csv should be exactly the same in either case.
+
+
 def read_file(file_name: str) -> list:
     with open(file_name) as file:
         content = []

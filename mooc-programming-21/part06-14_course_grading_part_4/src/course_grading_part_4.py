@@ -1,3 +1,17 @@
+# Let's revisit the course grading project from the previous section.
+
+# As we left if last time, the program read and processed files containing student information, completed exercises and exam results. We'll add a file containing information about the course. An example of the format of the file:
+
+# The program should then create two files. There should be a file called results.txt with the following contents:
+
+# The statistics section is identical to the results printed out in part 3 of the project. The only addition here is the header section.
+
+# Additionally, there should be a file called results.csv with the following format:
+
+# When the program is executed, it should look like this:
+
+# That is, the program only asks for the names of the input files. All output should be written to the files. The user will only see a message confirming this.
+
 def read_file(file_name):
     file_name = file_name.lower()
     with open(file_name) as file:

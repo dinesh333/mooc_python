@@ -1,3 +1,11 @@
+# Please write a program which functions as a dictionary. The user can type in new entries or look for existing entries.
+
+# The program should work as follows:
+
+# The dictionary entries should be written to a file called dictionary.txt. The program should first read the contents of the file. New entries are written to the end of the file whenever they are added to the dictionary.
+
+# The format of the data stored in the dictionary is up to you.
+
 def add_to_dict(dict_file_name: str, finnish: str, english: str):
     with open(dict_file_name, 'a') as file:
         file.write(finnish + ';' + english + '\n')

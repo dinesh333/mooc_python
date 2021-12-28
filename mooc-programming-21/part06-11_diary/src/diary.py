@@ -1,3 +1,7 @@
+# Please write a program which works as a simply diary. The diary entries should be saved in the file diary.txt. When the program is executed, it should first read any entries already in the file.
+
+# NB: the automatic tests for this exercise will change the contents of the file. If you want to keep its contents, first make a copy of the file under a different name.
+
 # Write your solution here
 def read_file(file_name):
     with open(file_name) as diary:

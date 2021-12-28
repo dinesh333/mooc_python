@@ -1,3 +1,9 @@
+# Please write a program which asks the user to type in some text. Your program should then perform a spell check, and print out feedback to the user, so that all misspelled words have stars around them. Please see the two examples below:
+
+# The case of the letters should be irrelevant to the functioning of your program.
+
+# The exercise template includes the file wordlist.txt, which contains all the words the spell checker should accept as correct.
+
 # write your solution here
 def put_file_lines_in_list(file_name):
     with open(file_name) as file:

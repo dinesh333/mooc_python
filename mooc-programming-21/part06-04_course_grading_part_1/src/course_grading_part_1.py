@@ -1,3 +1,11 @@
+# This program works with two CSV files. One of them contains information about some students on a course:
+
+# The other contains the number of exercises each student has completed each week:
+
+# As you can see above, both CSV files also have a header row, which tells you what each column contains.
+
+# Please write a program which asks the user for the names of these two files, reads the files, and then prints out the total number of exercises completed by each student. If the files have the contents in the examples above, the program should print out the following:
+
 # write your solution here
 
 def read_file(file_name):
