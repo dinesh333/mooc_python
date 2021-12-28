@@ -1,3 +1,4 @@
+# Please write a function named length which takes a list as its argument and returns the length of the list.
 # Write your solution here
 def length(list):
     return len(list)

@@ -1,3 +1,5 @@
+# Please write a function named greatest_number, which takes three arguments. The function returns the greatest in value of the three.
+
 # Write your solution here
 def greatest_number(a, b, c):
     if a >= b and a >= c:

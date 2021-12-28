@@ -1,3 +1,6 @@
+# Please write a function named range_of_list, which takes a list of integers as an argument. 
+# The function returns the difference between the smallest and the largest value in the list.
+
 # Write your solution here
 def range_of_list(list):
     return max(list) - min(list)

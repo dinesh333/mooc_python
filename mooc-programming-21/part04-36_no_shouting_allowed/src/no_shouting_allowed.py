@@ -1,3 +1,6 @@
+# The Python string method isupper() returns True if a string consists of only uppercase characters.
+
+
 # Write your solution here
 def no_shouting(list_str):
     new_lst = []
